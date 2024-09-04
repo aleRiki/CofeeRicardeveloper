@@ -1,7 +1,13 @@
+import TableInfo from "../tasks/comoponents/tableInfo";
+
 const Page = () => {
-    return ( 
-        <p>Product Page</p>
-     );
+    return (
+        <div>
+            <p>Product Page</p>
+            <TableInfo/>
+        </div>
+
+    );
 }
- 
+
 export default Page;
